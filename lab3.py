@@ -79,7 +79,19 @@ for i in range(abs(b)):
 if b<0:
     cem=-cem
 print(cem)'''
-#sual14??
+#sual14
+'''n=int(input())
+cem=0
+j=1
+s="3"
+for i in range(3,n+1,2):
+    cem+=(4/((i-1)*(i)*(i+1)))*j
+    s+=str(4)+"/"+str(i-1)+"*"+str(i)+"*"+str(i+1)+"*"+str(j)+" "
+    
+    j=j*(-1)
+print(cem+3)
+print(s)'''
+
 #sual15
 '''for i in range(10000,99999):
  if i%133==125 and i%134==111:
@@ -101,5 +113,12 @@ for i in range(a,b+1):
     if say==2:
         print(i)'''
 #sual18
-?
+'''say=0
+for i in range(1,(185//15)+1):
+    for j in range(1,(185//17)+1):
+        for k in range(1,(185//21)+1):
+            if (15*i)+(17*j)+(21*k)==185:
+                say+=1
+                print(f"15*{i}+17*{j}+21*{k}")
+print(say)'''
 
